@@ -69,12 +69,37 @@ h3 {
 }
 
 .product {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
+    font: 400 12px "Inter";
     line-height: 15px;
     text-align: center;
     color: #FFFFFF;
-
+    margin-left: 9px;
 }
+
+.wrapper-second {
+    background: #FFFFFF;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    height: 448px;
+    width: 430px;
+    border-radius: 6px;
+    margin: 50px auto;
+}
+
+.header1 {
+    font: 500 40px "Roboto";
+    line-height: 47px;
+    letter-spacing: -0.0375em;
+    color: #0B1354;   ;
+    padding-top: 4px;
+    margin-left: 45px;
+}
+
+.header3 {
+    font: 400 14px "Roboto";
+    line-height: 16px;
+    color: #4F4F4F;
+    padding-top: 4px;
+    margin-left: 45px;
+}
+
+
