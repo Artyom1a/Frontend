@@ -19,6 +19,7 @@ header h1 {
 header {
     display: flex;
     justify-content: space-between;
+    margin: 0 auto; 
 }
 
 header nav {
@@ -53,7 +54,7 @@ a {
     color: #606060;
 }
 
-.portfolio{
+.portfolio {
     margin-top: 8%;
 }
 
@@ -65,36 +66,52 @@ a {
     width: 33px;
 }
 
-.wrapper{
+.wrapper {
     display: flex;
     justify-content: space-between;
 }
-.image{
-    background-image:  url(../Thumbnail.png);
+
+.imageproject1 {
+    background-image: url(../project1.png);
+    width: 640px;
+    height: 364px;
+    background-size: cover;
+}
+
+.image {
+    background-image: url(../Thumbnail.png);
     width: 640px;
     height: 364px;
 }
 
-.text h1{
+.text h1 {
     font: 500 24px "DM Sans";
     color: #181717;
 }
 
-.text h2{
+.text h2 {
     font: 400 22px "DM Sans";
     color: #181717;
     margin-top: 25px;
     width: 340px;
 }
 
-.text h3{
+.text h3 {
     font: 400 22px "DM Sans";
     color: #606060;
     margin-top: 8%;
     width: 315px;
 }
 
-.text h4{
+.linkproject1 {
+    font: 500 22px "DM Sans";
+    color: #181717;
+    margin-top: 167px;
+    width: 326px;
+    text-decoration-line: underline;
+}
+
+.text h4 {
     font: 500 22px "DM Sans";
     color: #181717;
     margin-top: 167px;
@@ -108,18 +125,100 @@ a {
     margin-top: 10%;
 }
 
-footer{
+footer {
     margin-top: 10%;
     display: flex;
     justify-content: space-between;
 }
 
-.flex{
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.linkedin {
+    height: 20px;
+    width: 98px;
+}
+
+.tg {
+    height: 20px;
+    width: 69px;
+}
+
+
+/* ------------ */
+.about {
+    margin-top: 8%;
+}
+
+.wrapperabout {
+    display: flex;
+    justify-content: space-between;
+}
+
+.imageabout {
+    background-image: url(../Thumbnail.png);
+    width: 457px;
+    height: 405px;
+}
+
+
+
+.about h1 {
+    font: 500 60px "DM Sans";
+    color: #181717;
+    width: 480px;
+}
+
+.about h2 {
+    font: 400 24px "DM Sans";
+    color: #181717;
+    width: 575px;
+}
+
+.hardskills {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hardskills h2 {
+    margin-top: 68px;
+}
+
+
+.hardskills p {
+    width: 436px;
+    margin-top: 68px;
+}
+
+.wrapperabout3email {
     display: flex;
 }
 
-@media screen and (max-width: 600px){
-    .image{
+.wrapperabout3email h2{
+    width: 347px;
+    margin-top: 71px;
+}
+
+
+.arrowright {
+    background-image: url(../arrowright.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    height: 24px;
+    width: 24px;
+    margin-top: 79px;
+    margin-left: 41px;
+}
+
+.wrapperabout3email p{
+    margin-left: 392px;
+    margin-top: 79px;
+}
+
+@media screen and (max-width: 600px) {
+    .image {
         display: none;
     }
 }
