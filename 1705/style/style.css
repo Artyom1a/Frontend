@@ -1,0 +1,16 @@
+@font-face{
+    font-family: Poppins;
+    src: url(./fonts/Poppins-Regular.ttf) format("truetype");
+}
+@font-face{
+    font-family: Milish;
+    src: url(/fonts/Mulish-Regular.ttf)  format("truetype");
+}
+
+h1{
+    font-family: 'Popins';
+}
+
+h2{
+    font-family: 'Mulish';
+}
